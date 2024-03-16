@@ -49,8 +49,8 @@ $animal = new Animal('dog', 60, 5000);
 print_r($animal);
 echo '<br>';
 
-$food->show_price(250);
-$animal->show_height(60);
+$food->show_price();
+$animal->show_height();
 
 
 
